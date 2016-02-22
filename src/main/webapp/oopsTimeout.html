@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+  
+.pagehead{
+	float:none;
+	color: #3498db;
+	margin-left:0;
+	margin-right:0;
+	margin-top:2px;
+	margin-bottom:30px;
+	font: normal 14.5px/2 "Verdana",Geneva, sans-serif; 
+	text-align:center;
+}
+
+.pagehead a{text-decoration: none; color: purple;}
+
+.well{
+	float:none;
+	background-color: #e6e6e6;
+	margin:0% 15%;
+	text-align:center;
+	
+  
+}
+
+#logo{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("http://i67.tinypic.com/py4xl.png") ;
+	width:100%;
+	height:125px;
+	background-color: #e6e6e6; 
+	border:#e6e6e6;
+    
+}
+
+#emptyfirstrow{height:100px;}
+
+
+
+.footer{
+	height: 100px;
+	background-color:white;
+	text-align: center;
+	font: normal 12px/normal Verdana, Geneva, sans-serif;
+	padding: 15px;
+	margin:15px;
+}
+
+.footerlist li{display:inline;  list-style-type:none; padding:10px; text-decoration: none;}
+
+.footerlist a{text-decoration: none; color: rgba(132,131,131,1);}
+
+.footerlist a:hover{text-decoration: none; color: purple;}
+
+
+/* For mobile phones: */
+
+@media screen and (max-width: 767px) {
+      
+.row.content {height:auto;} 
+
+.pagehead{
+	
+	font: normal 14px/2 "Verdana",Geneva, sans-serif; 
+	
+}
+
+#emptyfirstrow{height:20px;}   
+
+#emailinputbox{width:100%;margin:0;}
+   
+.well{
+    background-color:#e6e6e6;
+    margin:0;
+}
+
+.footer{
+  height: 100px;
+  background-color:white;
+}
+
+#logo{width:auto;}
+
+}
+  
+  </style>
+</head>
+<body>
+
+
+
+<div class="container-fluid">  
+	<div class="row content">
+		<div class="col-sm-12" id="emptyfirstrow">
+		</div>
+	</div>
+	<div class="row content">
+		<div class="col-sm-2" >
+		</div>
+		<div class="col-sm-8 text-center">
+			<div class="well">
+				
+					<div class="panel-heading">
+						<div  class="thumbnail text-center" id ="logo" >
+						</div>
+					</div>
+					<div class="panel-body">
+						<p class="pagehead">This link has expired. Go to <a href="index.html">JanMat</a> and click on Forgot Password to generate a new link.</p>
+							
+					</div>
+				
+			</div>
+		</div>
+		<div class="col-sm-2" > 
+		</div>
+	</div>
+
+</div> <!-- Container ends here -->
+
+<div class= "footer">
+	<p><ul class="footerlist">
+	<li><a href="#">About us</a></li>
+	<li><a href="#">Privacy</a></li> 
+	<li><a href="#">Terms and Conditions</a></li>
+	<li><a href="#">Sitemap</a></li>
+	</ul></p> 
+</div>
+
+
+
+</body>
+</html>
